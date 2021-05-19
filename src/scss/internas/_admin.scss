@@ -4,9 +4,12 @@
     font-weight: $bold;
     text-transform: uppercase;
     margin: 1rem 0;
-
-} 
- .error{
+    &.error{
         background-color:$rojo;
         color:$blanco; 
     }
+    &.exito{
+        background-color: $verde;
+    }
+}
+ 
